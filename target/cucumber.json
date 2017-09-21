@@ -1,0 +1,211 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Lauching the browser and enter the url",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7850066111,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestModule.test()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "verify the home page",
+        "description": "",
+        "id": "homemodule;verify-the-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 717477055,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestModule.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "verify the  text",
+            "match": {
+              "location": "HomeModuleTEST.verify_the_text()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "HomeModule",
+    "description": "",
+    "id": "homemodule",
+    "keyword": "Feature",
+    "uri": "HomeModule.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@HomeModule"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Lauching the browser and enter the url",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6642030112,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestModule.test()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login to the application",
+        "description": "",
+        "id": "loginmodule;login-to-the-application",
+        "after": [
+          {
+            "result": {
+              "duration": 709759091,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestModule.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Click on sign-inregister link",
+            "match": {
+              "location": "LoginTestModule.click_on_sign_inregister_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click on ALreadyRegister option",
+            "match": {
+              "location": "LoginTestModule.click_on_ALreadyRegister_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter the email and password",
+            "match": {
+              "location": "LoginTestModule.enter_the_email_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "password"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "abofqa.raghu@gmail.com",
+                  "raghukiran92"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "abofqa.raghu1@gmail.com"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Click on sign-in button",
+            "match": {
+              "location": "LoginTestModule.click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "LoginModule",
+    "description": "",
+    "id": "loginmodule",
+    "keyword": "Feature",
+    "uri": "LoginModule.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Loginmodule"
+      }
+    ]
+  }
+]
